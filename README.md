@@ -1,1 +1,1 @@
-#GithubPrjectAutomation
+# GithubProjectAutomation
