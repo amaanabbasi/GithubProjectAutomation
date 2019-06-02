@@ -6,6 +6,13 @@ task of initializing a git repository locally, then creating the repository on g
 This scripting tool will automate the process. All you have to provide is the repository's name and it will initialize and
 create a repostiory on github for you and will also launch your favourite code editor. As of now, it will launch __VS Code__ but I will change it later.
 
+# Usage 
+
+In terminal:
+
+`./create.sh nameofyourproject`
+
+
 # What will it do ?
 
 * Create a git repository locally.
@@ -31,5 +38,12 @@ Ubuntu, Mac
 * From there you will recieve a token that you need to paster in the create.py file.
 * In the file you need to also put your username.
 * Lastly, you need to put your username in place of "yourusername" in line 12 of create.sh.
+
+# Common Errors
+
+* Make the file executable(Permissions).
+
+`chmod u+x create.sh`
+
 
 
