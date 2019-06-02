@@ -1,10 +1,17 @@
 # GithubProjectAutomation
 
-Making project intialization easier with shell, python and github's api. We all have been through the repetivite
-task of initializing a git repository locally then creating the repository on github to and then manually adding the remote.
+Making, _Project Intialization_ easier with shell, python and github's api. We all have been through the repetitive
+task of initializing a git repository locally, then creating the repository on github and then manually adding the remote to the local repository.
 
 This scripting tool will automate the process. All you have to provide is the repository's name and it will initialize and
 create a repostiory on github for you and will also launch your favourite code editor. As of now, it will launch __VS Code__ but I will change it later.
+
+# What will it do ?
+
+* Create a git repository locally.
+* Create a repository on github.
+* Add a readme.
+* Add the remote to the local repository and push it to github.
 
 # Supporting OS
 
@@ -23,5 +30,4 @@ Ubuntu, Mac
 * In the file you need to also put your username.
 * Lastly, you need to put your username in place of "yourusername" in line 12 of create.sh.
 
-# Contributions
 
