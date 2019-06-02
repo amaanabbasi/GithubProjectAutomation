@@ -3,7 +3,7 @@
 echo "Setting Up," $1
 python3 create.py $1
 echo "--------Repository Created ---------"
-cd code/
+cd my-projects/
 echo " "
 echo "Setting up git locally"
 mkdir $1
