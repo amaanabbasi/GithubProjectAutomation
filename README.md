@@ -8,7 +8,7 @@ create a repostiory on github for you and will also launch your favourite code e
 
 # Supporting OS
 
-Ubuntu, Max
+Ubuntu, Mac
 
 # Prerequisites
 
@@ -17,9 +17,11 @@ Ubuntu, Max
 
 # Setting It Up 
 
-* You need to have github api token, you can get by clicking on settings -> Developers Settings -> personal Access token.
+* You need to have github api token, you can get by clicking on Settings -> Developers Settings -> Personal Access Token.
 * There you need to check some of the checkboxes,I have checked all of the checkboxes under admin, user and repo.(That works fine for this particular tool).
 * From there you will recieve a token that you need to paster in the create.py file.
 * In the file you need to also put your username.
 * Lastly, you need to put your username in place of "yourusername" in line 12 of create.sh.
+
+# Contributions
 
