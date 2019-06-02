@@ -36,7 +36,7 @@ Ubuntu, Mac
 * There you need to check some of the checkboxes,I have checked all of the checkboxes under admin, user and repo.(That works fine for this particular tool).
 * Create a directory called my-projects in the root. Your repository will be initialized in this folder.
 * From there you will recieve a token that you need to paster in the create.py file.
-* In the file you need to also put your username.
+* In the same file you need to also put your username.
 * Lastly, you need to put your username in place of "yourusername" in line 12 of create.sh.
 
 # Common Errors
