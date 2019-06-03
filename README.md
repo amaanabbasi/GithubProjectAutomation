@@ -47,6 +47,7 @@ Ubuntu, Mac
 
 # Todo 
 
-[x] Launching Vs Code
-[ ] Adding .gitignore 
+- [x] Launching Vs Code
+
+- [ ] Adding .gitignore 
 
