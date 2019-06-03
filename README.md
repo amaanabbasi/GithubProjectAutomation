@@ -33,10 +33,10 @@ Ubuntu, Mac
 # Setting It Up 
 
 * You need to have github api token, you can get by clicking on Settings -> Developers Settings -> Personal Access Token.
-* There you need to check some of the checkboxes,I have checked all of the checkboxes under admin, user and repo.(That works fine for this particular tool).
-* Create a directory called my-projects in the root. Your repository will be initialized in this folder.
-* From there you will recieve a token that you need to paster in the create.py file.
+* Paste the token in the create.py file.
 * In the same file you need to also put your username.
+* There you need to check some of the checkboxes,I have checked all of the checkboxes under admin, user and repo.(That works fine for this particular tool).
+* Create a directory called my-projects in the root (Your repository will be initialized in this folder).
 * Lastly, you need to put your username in place of "yourusername" in line 12 of create.sh.
 
 # Common Errors
@@ -45,5 +45,8 @@ Ubuntu, Mac
 
 `chmod u+x create.sh`
 
+# Todo 
 
+[x] Launching Vs Code
+[ ] Adding .gitignore 
 
