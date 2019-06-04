@@ -1,14 +1,15 @@
 import sys
 import requests
 import json
+import os
+user= 'usern-name'
+token = 'token'
 
-user= 'your-username'
-token = 'github-access-token'
-
-repo = str(sys.argv[1])
+repo_name = str(sys.argv[1])
 
 
-payload = {'name': repo}
+# Passing Repository name
+payload = {'name': repo_name}
 
 login = requests.post('https://api.github.com/' + 'user/repos', auth=(user,token), data=json.dumps(payload))
-print(login.json())
+print(login.status)

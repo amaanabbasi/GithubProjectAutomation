@@ -10,8 +10,9 @@ create a repostiory on github for you and will also launch your favourite code e
 
 In terminal:
 
-`./create.sh nameofyourproject`
+`./create.sh nameofyourproject gitignore-env`
 
+> *gitignore-env is an optional argument that can used to initiate a .gitignore file. It fetches from the www.gitignore.io/api/ , e.g Django, Node, Flask e.t.c
 
 # What will it do ?
 
@@ -37,7 +38,7 @@ Ubuntu, Mac
 * In the same file you need to also put your username.
 * There you need to check some of the checkboxes,I have checked all of the checkboxes under admin, user and repo.(That works fine for this particular tool).
 * Create a directory called my-projects in the root (Your repository will be initialized in this folder).
-* Lastly, you need to put your username in place of "yourusername" in line 12 of create.sh.
+* Lastly, you need to put your username in place of "yourusername" in line 16 of create.sh.
 
 # Common Errors
 
@@ -49,5 +50,5 @@ Ubuntu, Mac
 
 - [x] Launching Vs Code
 
-- [ ] Adding .gitignore 
+- [x] Adding .gitignore 
 
