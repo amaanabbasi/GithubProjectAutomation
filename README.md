@@ -52,3 +52,7 @@ Ubuntu, Mac
 
 - [x] Adding .gitignore 
 
+# Contributions
+
+* Help in structuring the documentation
+* Provide better comments in the code.
