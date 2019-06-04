@@ -6,6 +6,8 @@ task of initializing a git repository locally, then creating the repository on g
 This scripting tool will automate the process. All you have to provide is the repository's name and it will initialize and
 create a repostiory on github for you and will also launch your favourite code editor. As of now, it will launch __VS Code__ but I will change it later.
 
+![githubautomation](https://user-images.githubusercontent.com/30196830/58846841-48739580-869e-11e9-9836-64439ef9c70e.gif)
+
 # Usage 
 
 In terminal:
