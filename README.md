@@ -14,7 +14,7 @@ In terminal:
 
 `./create.sh nameofyourproject gitignore-env`
 
-> *gitignore-env is an optional argument that can used to initiate a .gitignore file. It fetches from the www.gitignore.io/api/ , e.g Django, Node, Flask e.t.c
+> *gitignore-env is an optional argument that can be used to initiate a .gitignore file. It fetches from the www.gitignore.io/api/ api, e.g Django, Node, Flask e.t.c
 
 # What will it do ?
 
