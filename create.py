@@ -12,4 +12,4 @@ repo_name = str(sys.argv[1])
 payload = {'name': repo_name}
 
 login = requests.post('https://api.github.com/' + 'user/repos', auth=(user,token), data=json.dumps(payload))
-print(login.status)
+print(login.status_code)
