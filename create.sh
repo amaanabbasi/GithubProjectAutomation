@@ -8,17 +8,18 @@ echo "--------Repository Created ---------"
 
 cd my-projects/
 echo " "
-echo "-------Setting up git locally------"
 
-mkdir $1
+echo "-------Creating local git repository------"
+mkdir $1    # creating a project directory
 cd $1 
 git init .
 git remote add origin https://github.com/username/$1.git
+git branch -M main  # making main as the default branch name
 touch README.md
 touch .gitignore
 # Storing repository's path
 VAR1=$(pwd)
-echo " "
+echo " "   # newline
 
 echo "-------Initializing .gitignore--------"
 # Going back to the root directory,
@@ -29,7 +30,7 @@ python3 create-gitignore.py $VAR1 $2
 cd "$VAR1"  
 git add .
 git commit -m "Initial commit"
-git push -u origin master
+git push -u origin main
 echo " "
 # echo "--------Finished---------"
 
