@@ -8,6 +8,10 @@ create a repostiory on github for you and will also launch your favourite code e
 
 ![githubautomation](https://user-images.githubusercontent.com/30196830/58846841-48739580-869e-11e9-9836-64439ef9c70e.gif)
 
+# New Scripts Added in 2023
+
+* `cron_job_to_pull_django_project.sh` - This script can be used as a cron job for Django application deployed on Gunicorn/Nginx.
+
 # Usage 
 
 In terminal:
