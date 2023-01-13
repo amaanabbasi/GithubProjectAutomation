@@ -62,3 +62,6 @@ Ubuntu, Mac
 
 * Help in structuring the documentation
 * Provide better comments in the code.
+
+# Similar Automation Projects
+[VLC_CAMERA_AUTOMATION](https://github.com/amaanabbasi/VLC_CAMERA_AUTOMATION) 
